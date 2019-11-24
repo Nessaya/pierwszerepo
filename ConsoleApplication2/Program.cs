@@ -10,12 +10,15 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1. dodaj liczby");
+            int menuOption = Convert.ToInt32(Console.ReadLine());            
             Console.WriteLine("2. odejmij liczby");
-            Console.WriteLine("3. pomnoz liczby");
-            Console.WriteLine("4. dziel liczby");
+            Console.WriteLine("1. dodaj liczby");
+            Console.WriteLine("3. pomnoz liczby");          
             Console.WriteLine("5. wyjście");
-            int menuOption = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("4. dziel liczby");
+
+            int a = Convert.ToInt32(Console.ReadLine());
+
         }
     }
 }
